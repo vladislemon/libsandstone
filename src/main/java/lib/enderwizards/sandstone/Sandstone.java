@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 // I'll probably end up using the Mod aspect of this for something, eventually.
-@Mod(modid = "libsandstone", name = "libsandstone", version = "1.0.0")
+@Mod(modid = Tags.MODID, name = Tags.MODNAME, version = Tags.VERSION)
 public class Sandstone {
 
     private static Map<String, List<ModIntegration>> modIntegrations = new HashMap<String, List<ModIntegration>>();
